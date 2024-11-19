@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online de Roupas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Minha Loja</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="banner">
+            <h1>Bem-vindo à Minha Loja!</h1>
+            <p>As melhores roupas ao seu alcance.</p>
+        </section>
+
+        <section id="produtos" class="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="grid">
+                <div class="produto">
+                    <img src="./imagens/blusa.jpg" alt="Produto 1">
+                    <h3>Blusa</h3>
+                    <p>R$ 79,99</p>
+                </div>
+                <div class="produto">
+                    <img src="./imagens/saia.jpg" alt="Produto 2">
+                    <h3>Saia Jeans</h3>
+                    <p>R$ 129,99</p>
+                </div>
+                <div class="produto">
+                    <img src="./imagens/vestido.jpg" alt="Produto 3">
+                    <h3>Vestido</h3>
+                    <p>R$ 199,99</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A mais nova loja on-line de moda modesta. Contamos com peças exclusivas e ótima qualidade para você que deseja sofisticação, qualidade e modéstia.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+
+        menuBtn.addEventListener('click', () => {
+            if (menu.style.display === 'none') {
+                menu.style.display = 'block';
+            } else {
+                menu.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
