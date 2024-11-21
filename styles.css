@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #333;
+    background-color: #9b734c;
     color: #fff;
 }
 
@@ -42,7 +42,7 @@ header .logo {
 .banner {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(to right, #ff6347, #ff4500);
+    background: linear-gradient(to right, #d2b48c, #a78f70);
     color: #fff;
 }
 
