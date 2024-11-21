@@ -46,6 +46,12 @@ header .logo {
     color: #fff;
 }
 
+.banner img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+
 .produtos {
     padding: 2rem;
     text-align: center;
