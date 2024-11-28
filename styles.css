@@ -42,7 +42,7 @@ header .logo {
 .banner {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(to right, #d2b48c, #a78f70);
+    background: linear-gradient(to right, #d2b48c, #a78f70, #9b734c);
     color: #fff;
 }
 
@@ -89,4 +89,9 @@ footer {
 }
 .sobre{
     margin-left: 10px;
+}
+.sobre iframe{
+    height: 150px;
+    width: 150px;
+    
 }
